@@ -1,0 +1,26 @@
+---
+title: "Capstone Project Proposal"
+author: "Grant Boyd"
+date: "July 17, 2018"
+output: html_document
+---
+### Problem I Want to Solve:
+I want to see if there is a positive or negative correlation between average rental prices of different sized dwelling units, interests rates, housing starts, housing completions and housing under construction in big metropolitan areas in Canada. Once I discover the relationship between these variables I can construct a machine learning model that will help me predict average rental prices based on the size of the dwelling. I have a large dataset with many observations  which will help with the integrity of the project. This will help me see if rental costs go up with factors like supply in market. This will be determined by housing starts and completions. Interests rates will also be a factor that determines accessibility. Higher interest rates tend to increase the price of buying a house. I hypothesize that an increase in interest rates will drive the rental price higher. These factors will help me create a model which predicts rental costs. 
+
+### Who is your client and why do they care about this problem?
+My clients  would range from government agencies, private organizations and individual consumers  interested in the links between rental costs and exogenous variables. This project is interesting on an individual consumer level because it can help consumers make important financial decisions on housing. The model will help them make a decision to either purchase a home or to rent under the current economic climate. This model can help government with public policy and private organizations with investing in the housing market.
+
+### What data are you going to use for this? How will you acquire this data?
+The data I am using is all publically available and is sourced from the Canadian governments open data portal. The links to the data sets are provided below.
+
+>[Average rents for areas with a population of 10,000 and over](https://open.canada.ca/data/en/dataset/1146388b-a150-4e70-98ec-eb40cb9083c8)
+
+>[Conventional mortgage lending rate, 5-year term](https://open.canada.ca/data/en/dataset/ae607e9a-2fce-4ed9-83e3-ba4cdbc24b8d)
+
+>[Housing starts, under construction and completions in selected census metropolitan areas](https://open.canada.ca/data/en/dataset/449c8301-65ae-4225-ac69-9a83d01b59ab)
+
+### In brief, outline your approach to solving this problem.
+Firstly, I will organize the data into a data frame which will help me clean it. I will then be able to see what my data looks like and I will be able to visualize it. I can then test for correlation to see how related the variables are. Based on those results I can create my machine learning model to help predict rental costs based on dwelling type.
+
+### What are your deliverables? 
+My deliverables would be a rmarkdown write up of my project. My code posted in github with notes so that the reader can follow. Finally,  the machine learning model will be included so that users can determine projected rent prices in census areas in Canada. 
